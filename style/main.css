@@ -390,74 +390,80 @@ hr {
     z-index: 10;
     font-size: 40px; }
   .tile.tile-2 .tile-inner {
-    background: #eee4da;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
-  .tile.tile--2 .tile-inner {
-    background: #2f2d2b;
+    background: #f9f6f2;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background: #ede0c8;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
-  .tile.tile--4 .tile-inner {
-    background: #423b2b;
+    background: #dcd994;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
-    color: #f9f6f2;
-    background: #f2b179; }
-  .tile.tile--8 .tile-inner {
-    color: #f9f6f2;
-    background: #ae6f3a; }
+    background: #e3bea1;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-16 .tile-inner {
-    color: #f9f6f2;
-    background: #f59563; }
-  .tile.tile--16 .tile-inner {
-    color: #f9f6f2;
-    background: #b95b2c; }
+    background: #f5b0ad;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-32 .tile-inner {
     color: #f9f6f2;
-    background: #f67c5f; }
-  .tile.tile--32 .tile-inner {
-    color: #f9f6f2;
-    background: #c34a2f; }
+    background: #BD5F3C; }
   .tile.tile-64 .tile-inner {
     color: #f9f6f2;
-    background: #f65e3b; }
-  .tile.tile--64 .tile-inner {
-    color: #f9f6f2;
-    background: #cc3513; }
+    background: #e92929; }
   .tile.tile-128 .tile-inner {
     color: #f9f6f2;
-    background: #edcf72;
+    background: #EAEA85;
+    font-size: 40px }
+  .tile.tile-256 .tile-inner {
+    color: #f9f6f2;
+    background: #E2DB51;
+    font-size: 40px }
+  .tile.tile-512 .tile-inner {
+    color: #f9f6f2;
+    background: #FEFE02;
+    font-size: 40px }
+  .tile.tile-1024 .tile-inner {
+    color: #f9f6f2;
+    background: #E2CA51;
+    font-size: 30px }
+  .tile.tile-2048 .tile-inner {
+    color: #f9f6f2;
+    background: #80E749;
+    font-size: 30px }
+  .tile.tile-4096 .tile-inner {
+    color: #f9f6f2;
+    background: #32760D;
+    font-size: 30px }
+  .tile.tile-8192 .tile-inner {
+    color: #f9f6f2;
+    background: #063A06;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
-    font-size: 45px; }
+    font-size: 30px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
-  .tile.tile--128 .tile-inner {
+  .tile.tile-16384 .tile-inner {
     color: #f9f6f2;
-    background: #a1862c;
+    background: #14D0DF;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
-    font-size: 45px; }
+    font-size: 20px; }
     @media screen and (max-width: 520px) {
       .tile.tile--128 .tile-inner {
         font-size: 25px; } }
-  .tile.tile-256 .tile-inner {
+  .tile.tile-32768 .tile-inner {
     color: #f9f6f2;
-    background: #edcc61;
+    background: #1479DF;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
-    font-size: 45px; }
+    font-size: 20px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
-  .tile.tile--256 .tile-inner {
+  .tile.tile-65536 .tile-inner {
     color: #f9f6f2;
-    background: #b3952d;
+    background: #101495;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
-    font-size: 45px; }
+    font-size: 20px; }
     @media screen and (max-width: 520px) {
       .tile.tile--256 .tile-inner {
         font-size: 25px; } }
-  .tile.tile-512 .tile-inner {
+  .tile.tile-131072 .tile-inner {
     color: #f9f6f2;
     background: #edc850;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
@@ -465,7 +471,7 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
-  .tile.tile--512 .tile-inner {
+  .tile.tile-262144 .tile-inner {
     color: #f9f6f2;
     background: #c7a42d;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
@@ -473,7 +479,7 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile--512 .tile-inner {
         font-size: 25px; } }
-  .tile.tile-1024 .tile-inner {
+  .tile.tile-524288 .tile-inner {
     color: #f9f6f2;
     background: #edc53f;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
@@ -481,7 +487,7 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
-  .tile.tile--1024 .tile-inner {
+  .tile.tile-1048576 .tile-inner {
     color: #f9f6f2;
     background: #dab32d;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
@@ -489,7 +495,7 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile--1024 .tile-inner {
         font-size: 15px; } }
-  .tile.tile-2048 .tile-inner {
+  .tile.tile-2097152 .tile-inner {
     color: #f9f6f2;
     background: #edc22e;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
@@ -497,7 +503,7 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
         font-size: 15px; } }
-  .tile.tile--2048 .tile-inner {
+  .tile.tile-4194304 .tile-inner {
     color: #f9f6f2;
     background: #edc22e;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
@@ -505,7 +511,7 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile--2048 .tile-inner {
         font-size: 15px; } }
-  .tile.tile-super .tile-inner {
+  .tile.tile-8388608 .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
     font-size: 30px; }
