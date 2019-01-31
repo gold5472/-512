@@ -1,4 +1,4 @@
-require "date"
+require "note"
 
 namespace :appcache do
   desc "update the date in the appcache file (in the gh-pages branch)"
